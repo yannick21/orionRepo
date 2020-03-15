@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>dashbord</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <div>
+    <img src="../../assets/images/linux.png" alt="">
+    <p class="name">Yannick Kouame</p>
+  </div>
+
+
+  <div id="photo">
+    <ion-icon name="camera" (click)="toPhoto()"></ion-icon>
+    <p>Photos</p>  
+  </div>
+
+  <div id="video">
+    <ion-icon name="videocam" (click)="toVideo()"></ion-icon>
+    <p>Videos</p>
+  </div>
+
+  <div id="mic">
+    <ion-icon name="mic" (click)="toAudio()"></ion-icon>
+    <p>Audios</p>
+  </div>
+
+
+  <div id="geo">
+    <ion-icon name="pin" (click)="toLocate()"></ion-icon>
+    <p>positions</p>
+  </div>
+
+</ion-content>
