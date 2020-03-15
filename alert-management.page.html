@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Alert Management</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+
+  <!-- Toggles in a List -->
+  <ion-list>
+    <ion-item>
+      <ion-label>captures vidéo</ion-label>
+      <ion-icon  slot="start" name="videocam" (click)="takeVideo()"></ion-icon>
+      <ion-toggle slot="end" value="pepperoni" color="success"></ion-toggle>
+    </ion-item>
+
+    <div class="detail">au déclenchement de l'alarme, des vidéos du cambrioleur et/ou de l'espace ambiant du mobile seront prises pour vous aider le retrouver</div>
+   
+    <ion-item>
+      <ion-label>captures d'image</ion-label>
+      <ion-icon slot="start" name="camera"  (click)="takePhoto()"></ion-icon>
+      <ion-toggle slot="end" value="sausage" color="success"></ion-toggle>
+    </ion-item>
+  
+    <div class="detail">des photos du cambrioleur et/ou de l'espace ambiant du mobile seront prises</div>
+
+    <ion-item>
+      <ion-label>captures audio</ion-label>
+      <ion-icon slot="start" name="mic"></ion-icon>
+      <ion-toggle slot="end" value="mushrooms" color="success"></ion-toggle>
+    </ion-item>
+
+    <div class="detail">vous pouvez egalement avoir un apercut des sons/conversations à proximité de l'appareil</div>
+
+  </ion-list>
+  </ion-content>
