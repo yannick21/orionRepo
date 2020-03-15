@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>access</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <!-- Toggles in a List -->
+  <ion-list>
+    <ion-item>
+      <ion-label>via empreinte digitale</ion-label>
+      <ion-icon  slot="start" name="finger-print"></ion-icon>
+      <ion-toggle slot="end" value="pepperoni" color="success"></ion-toggle>
+    </ion-item>
+
+    <div class="detail">deverouiller l'application via empreinte digitale</div>
+   
+    <ion-item>
+      <ion-label>reconnaissance faciale</ion-label>
+      <ion-icon slot="start" name="camera"></ion-icon>
+      <ion-toggle slot="end" value="sausage" color="success"></ion-toggle>
+    </ion-item>
+  
+    <div class="detail">présenter votre face à l'applcation pour y avoir access</div>
+
+    <ion-item>
+      <ion-label>via mot de passe</ion-label>
+      <ion-icon slot="start" name="keypad"></ion-icon>
+      <ion-toggle slot="end" value="mushrooms" color="success"></ion-toggle>
+    </ion-item>
+
+    <div class="detail">vous pouvez egalement choisir cette option pour avoir access à l'application à travers un mot de pass</div>
+
+  </ion-list>
+  </ion-content>
