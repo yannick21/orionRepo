@@ -1,0 +1,43 @@
+ion-content.b1{
+  --background: url(../../assets/images/alexander-andrews.jpg) 0 0/100% 100% no-repeat;
+
+}
+ion-content.b2{
+  --background: url(../../assets/images/taylor-leopold.jpg) 0 0/100% 100% no-repeat;
+
+}
+ion-content.b3{
+  --background: url(../../assets/images/jeremy-thomas.jpg) 0 0/100% 100% no-repeat;
+
+}
+ion-content.b4{
+  --background: url(../../assets/images/ivana.jpg) 0 0/100% 100% no-repeat;
+
+}
+ion-content.b5{
+  --background: url(../../assets/images/nasa.jpg) 0 0/100% 100% no-repeat;
+
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    position: relative;
+      top: 90px;
+      left: 0px;
+  }
+  to {
+    opacity: 1;
+    position: relative;
+      top: 0px;
+      left: 0px;
+  }
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+  animation-duration: 3s;
+  color: white;
+  font-family: Verdana,Tahoma, sans-serif;
+  font-size: 30px;
+}
